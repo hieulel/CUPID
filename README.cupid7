@@ -1,0 +1,153 @@
+Cupid is a comprehensive soil-plant-atmosphere model that uses inputs of
+leaf physiological characteristics (photosynthesis, stomatal conductance
+and respiration), canopy architecture, soil characteristics (heat and water
+properties) with boundary conditions at the bottom of the root zone and
+above the canopy to predict predict plant-environment interactions of
+many kinds. Examples include water budgets of irrigated crops, plant-
+pest-microenvironment interactions, canopy light-use efficiency, water-
+use efficiency, canopy energy budgets, leaf wetness duration and remote
+sensing applications. 
+
+The program has been developed by Dr. John Norman (UW-Madison-Soil 
+Science) over the last 20+ years.
+
+Cupid7 is the most recent version, 8/15/95.
+
+Martha Anderson has taken the documentation that was prepared in 1987
+for cupid5c and turned it into a great Web document.  She has updated
+alot of it.  Please check
+
+http://bob.soils.wisc.edu/soils/cupid.html
+
+With your web browser.
+
+If you are new to Cupid the place to start is  the 'Access Cupid
+documentation' section of the main documentation page (near the
+top).  You will especially need to read the sections 'Input
+and Output coding' and 'Setting up and input file'.
+
+----------------------------------------------------------------------
+Other tools.
+
+A. OUTPUT EXTRACTION TOOLS
+
+1. Cuprd3
+
+   Dr. Norman has developed an output format that it is easy to read 
+   with a text editor but it is not in a time series table.  This is 
+   often what the user wants for outputing results.  Dr Norman
+   created a program called cuprd3 that helps with that.  The source
+   is in a file called cuprd3.f in the cupid7 directory.  Compile it
+   with 
+
+   make  cuprd3
+
+   on a Unix workstation with the fortran compiler in your path.
+   Check the doc directory for cuprd3.doc for instructions on
+   how to use it.
+
+2. RDB files
+   
+   If you have a c compiler and Perl installed you can get the RDB
+   package from 
+   
+   ftp://rand.org/pub/RDB-hobbs/  
+
+   This is a great set of Perl scripts for grabing rows and columns
+   from tab delimted files with 2 lines of special header.  You do
+   not have to know Perl to use them.  The documetation is good,
+   especially when combined with our rdb documentation! :^)
+
+   To get your output to RDB format you run cup2rdb.  This is a 
+   C program so you will need a C compiler to use it.  Compile it
+   with
+
+   make cup2rdb
+
+   There is some documentation for cup2rdb on the Cupid home page.
+   I (Larry Murdock) hope it is done by the time you read this.  If
+   not Martha has created a short but complete section on using cup2rdb
+   in the section entitled 'cup2rdb examples' on the main Cupid 
+   documentation page.
+
+   If you do not have Perl you can still use cup2rdb to extract
+   data from the cupid output files into a tab delimited table with
+   column headings.
+
+3. cupdiff
+
+   Cupdiff compares 2 cupid output files for value differences greater
+   than a given percentage.  This is mostly usefull for debugging 
+   code program changes but may be handy for comparisons as well.
+   There are some tables in the cupid output that use a multi line
+   format that makes it so that the headers displayed by cupdiff
+   are not the field names of the fields that differ, so should
+   be used as a first exploratory step.
+
+   It is in C and is compiled with:
+
+   make cupdiff
+
+   The usage line is
+
+   usage : cupdiff cupidfile1 cupidfile2 diffoutfile PcntTolerance
+
+   So you could run it with 
+
+   cupdiff cupout1 cupout2 diffout12 5
+
+   to get all the lines with fields more than 5 percent different.
+   In order to be able to compare to files the output variables chosen
+   must be identical and the days and hours of the run must be identical.
+
+4. context
+
+   Fortran, and cupid are notorious for small variable names. This 
+   makes tools like grep useless.  context understands Fortran
+   syntax and can parse variable names out of a source file.  So
+
+   context cusub.f c,ga
+
+   will print all lines that contain the variable c or the variable ga.
+   It will not print the following line
+
+   100	cat=gate
+
+   The output will includes fields so that if you typed
+
+   sh
+   for file in src/*.f
+   do
+       context $file et,hcpy,ecpy >> out
+   done
+   sort out > final
+
+   It will produce a nice ordered output, organized by
+	1. variable
+	2. file
+	3. Subroutine
+	4. line number in file
+
+   Of course you don't have to run it in the loop above.
+
+   make it with
+
+	make context
+
+--------------------------------------------------------------------------
+ If you want to do extensive source modification and you want to use
+ tools like SCCS or windowed interfaces like the one I have created in
+ tcl/TK.  Then email me at murdock@bob.soils.wisc.edu and let me know 
+ if you have
+
+	f77
+	C
+	Tcl/Tk
+	perl
+	SCCS or RCS (Specify)
+
+And I will send you a distribution that has worked for a few of us
+here in Soil Physics.  (Most people just want a Makefile and the
+source files).
+
+Larry Murdock, murdock@bob.soils.wisc.edu

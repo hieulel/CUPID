@@ -1,0 +1,3 @@
+This directory is used by the make file to keep the object files.
+I put them here so they do not get in the way of the executable 
+directory and so they do not get in the way of the source code.
