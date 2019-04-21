@@ -143,7 +143,7 @@ c
 c
 c ************* layers above canopy are readjusted in this block*******
 c input data for layer heights are stored in variable zabc in first pass
-       write (*,*) "hite2 subroutine is called - cuht.f"
+c       write (*,*) "hite2 subroutine is called - cuht.f"
        if(iday.eq.1)then
        nlabc=nlabcy
        do140i=1,nlabcy

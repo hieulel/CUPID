@@ -38,7 +38,7 @@ c
 c ipp: =1, bdr were calc only in prinnciple plane.   
 c nvzenp: number of view zenith measured
 c vwzenp(i),i=1,nvzenp: view zenith angle measured (degree)
-      write (*,*) "BDRTM subroutine - cubdrtm.f"
+c      write (*,*) "BDRTM subroutine - cubdrtm.f"
       if(ipp.ne.1) goto 100
       nozenv=nvzenp
       noazmv=2
@@ -67,7 +67,7 @@ c  factir is the factor that the thermal sky flux calc'd from subr
 c    skyir is multiplied by to get sky thermal in band of interest.
 c
 c  compute thermal layer properties
-	  write (*,*) "thermal layer properties"
+c	  write (*,*) "thermal layer properties"
       do 4000 j=2,jtot
         tlayer(j)=tlayr(k,j)
         rlayer(j)=rlayr(k,j)

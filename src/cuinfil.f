@@ -60,7 +60,7 @@ c
 c
 c      write(6,*)rhsfc(2),rhev
 c
-	  write (*,*) "soilw subroutine is called - cuinfil.f"
+c	  write (*,*) "soilw subroutine is called - cuinfil.f"
       jzsfc1=jzsfc+1
       jzsfc2=jzsfc+2
       jzbm1=jzbot-1
@@ -128,7 +128,7 @@ c
 c
 c  Compute layer hydraulic properties
 c
-      write(*,*) "compute hydraulic properties"
+c      write(*,*) "compute hydraulic properties"
       do300jz=jzsfc1,jzbm1
         jz1=jz-jzsfc
         call hydro(pn(ihr,jz+1),pe(jz1),ws(jz1),an(jz1),bx(jz1),
@@ -239,7 +239,7 @@ c
 c
 c  Use the Thomas Algorithm to solve the system
 c
-      write (*,*) "Thomas algorithm - cuinfil.f"
+c      write (*,*) "Thomas algorithm - cuinfil.f"
       do500jz=jzsfc1,jzbm2
         c(jz)=c(jz)/b(jz)
         f(jz)=f(jz)/b(jz)
@@ -249,7 +249,7 @@ c
 c
 c  Increment potentials (limit to increment taken from Ross 19??)
 c
-      write (*,*) "increment potential limit - cuinfil.f"
+c      write (*,*) "increment potential limit - cuinfil.f"
       dp(jzbm1)=f(jzbm1)/b(jzbm1)
       pn(ihr,jzbm1)=pn(ihr,jzbm1)-dp(jzbm1)       
       do600jz=jzbm2,jzsfc1,-1
@@ -268,7 +268,7 @@ c    Without this if statement, p can get locked at 0...
 c
 c  Recycle Newton-Raphson loop if flux-balance not satisfied (50 iter max)
 c
-      write (*,*) "recycle newton-raphson - cuninfil.f"
+c      write (*,*) "recycle newton-raphson - cuninfil.f"
       if(se.lt.deld) go to 650
       loopw=loopw+1
       if(loopw.ge.50) then
@@ -317,7 +317,7 @@ c  the surface relative humidity calculated from the soil up.  If not,
 c  recycle through the temperature/water vapor/liquid water profile
 c  computations once again (50 iter max) -> flag irecyc=1 sent to profl2.
 c
-      write (*,*) "determine relative humidity"
+c      write (*,*) "determine relative humidity"
       wcpys=alam*4.18e-3*(evsoil+rhev*(rhsoil-rhsfc(2))) 
       iterw=iterw+1
       if(abs(rhsoil-rhsfc(2)).lt.drhsfc) then
@@ -334,7 +334,7 @@ c
 c
 c  Calculate infiltration and drainage in mm/hr
 c
-      write (*,*) "calculate infil and drainage"
+c      write (*,*) "calculate infil and drainage"
       filt=source(jzsfc1)*dt
       drain=fl(jzbm1)*dt
       drain5=fl(jzbot-5)*dt 
@@ -391,7 +391,7 @@ c  Computes hydraulic properties of a soil layer - they depend on
 c  whether the layer is saturated or not.
 c---------------------------------------------------------------------
 c
-	  write (*,*) "hydro subroutine is called - cuinfil.f"
+c	  write (*,*) "hydro subroutine is called - cuinfil.f"
       if(p.lt.pe)then
         w=ws*(pe/p)**(1/b)
         dwdp=-w*(1/b)/p

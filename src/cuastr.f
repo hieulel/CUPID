@@ -19,7 +19,7 @@ c if all are non-zero sub uses icumdy and month and day are evaluated.
       noday(10)=274
       noday(11)=305
       noday(12)=335
-      write(*,*) "date subroutine - cuastr.f"
+c      write(*,*) "date subroutine - cuastr.f"
       if(iyear)100,100,5
  5    if(ifix(2.5*(iyear-1900))-10*ifix((iyear-1900)/4.))10,10,18
  10   do15i=3,12
@@ -52,7 +52,7 @@ c  jan 1,1977 at 1 second after midnight is day 28124.0
       common/astron/eqtm,decl,sindec,cosdec,decmax,sinlat,coslat,
      1tanlat,dlong
       common/time/month,jday,iyear,icumdy,timloc(mh)
-	  write (*,*) "declin subroutine called - cuastr.f"
+c	  write (*,*) "declin subroutine called - cuastr.f"
       pid180=3.1415926537/180.
       kday=(iyear-1977)*365+icumdy+28123
       xm=(-1.+.9856*kday)*pid180
@@ -80,7 +80,7 @@ c   -hfday to 1200 + hfday. all other hours will have zenang=pi/2.
   5   format(1x,i3,1x,f7.4)
       pid2=3.1415926537/2.
       pi=3.1415926537
-      write (*,*) "zenith subroutine called - cuastr.f"
+c      write (*,*) "zenith subroutine called - cuastr.f"
       hfday=12./pi*acos(-(sinlat*sindec)/(coslat*cosdec))
       do10i=1,nohrs
       if(timloc(i))10,10,100

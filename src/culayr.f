@@ -28,7 +28,7 @@ c    should use good precision in diffuse integral so errors dont
 c    compound. thus use 90 intervals because 9 intervals accurate
 c    to about .005 and this error becomes .03 in layer non-interception
 c    factor because of 10th power from 10 sublayers.
-	  write (*,*) "Layerp subroutine is called - culayr.f"
+c	  write (*,*) "Layerp subroutine is called - culayr.f"
       laysub=10
       laysp1=laysub+1
       da=pi/180.
