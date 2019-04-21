@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CUPID
 
 ## Introduction
@@ -8,4 +9,4 @@ The makefile consists this structure
 ![`CUPID` Makefile Structure](makefile.png)
 
 ## CUPID Research Pipeline
-![`CUPID` Research Pipeline](cupidpipeline.png)
+![`CUPID` Makefile Structure](cupidpipeline.png)
