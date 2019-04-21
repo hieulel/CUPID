@@ -19,5 +19,6 @@ The makefile consists this structure
 
 ## Current task
 - [x] Compile CUPID and generate sample output file
-- [ ] Create table to show the relationship between sub-programs
-- [ ] Add the conceptual structure of CUPID to whole research timeline
+- [x] Create table to show the relationship between sub-programs
+- [x] Add the conceptual structure of CUPID to whole research timeline
+- [ ] Stock and flow diagram for CUPID
