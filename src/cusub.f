@@ -2949,7 +2949,7 @@ c  iwrite(2,9) and iwrite(2,12) are in subroutine simpet
 c
 	if(idiagn.eq.1)write(6,*)'before calling simpet'
 c above stm was added by chen, 01/23/90.
-	 write (*,*) "CALL SIMPET (start)"
+c	 write (*,*) "CALL SIMPET (start)"
       call simpet(ihr,icumdy,rncpyd,taird,vpaird,winddy,solard,etpmd
      &,iday,tairmx,tairmn)
 c
@@ -2987,7 +2987,7 @@ c  output soil temp and water prof for last hour of day
  7960 format(' 2211',i3,4x,i2,9f7.2)
 c  call subroutine to scale on a daily basis
 c
-	write (*,*) "CALL SCALED (start)"
+c	write (*,*) "CALL SCALED (start)"
       call scaled(icumdy,taird,rdcpyd,pmax,znr,pce,pcea,apard,pard
      &,parid,psyngd,rncpyd,hcpyd,ecpyd,hsoild,rnsold,hcpysd,wcpysd,
      &nohrs)
