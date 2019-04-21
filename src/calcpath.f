@@ -26,7 +26,7 @@ c
 	real	aspect
 	real	path(mh)
 c
-c	-----
+c	------
 c	| commons
 c
 	real	pi
