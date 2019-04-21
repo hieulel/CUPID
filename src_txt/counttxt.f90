@@ -58,5 +58,6 @@ character (len = 80), allocatable :: text (:)
 		read (1,*) text(i)
 	end do
 	10 close (1)
+	write (*,*) "Testing"
 ! 	deallocate(text)
 end program counttxt
