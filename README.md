@@ -21,4 +21,5 @@ The makefile consists this structure
 - [x] Compile CUPID and generate sample output file
 - [x] Create table to show the relationship between sub-programs
 - [x] Add the conceptual structure of CUPID to whole research timeline
+- [ ] Explain each subroutine equation, on paper (using Latex - maybe)
 - [ ] Stock and flow diagram for CUPID
