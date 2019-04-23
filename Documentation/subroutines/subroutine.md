@@ -21,7 +21,7 @@ Nonetheless, please follow the Table of Contents (TOC) to access it as a library
 #### Main Structure
 * Input: 
 * Ouput: path length through the canopy
-* Algorithm:
+* **Algorithm**:
 	```fortran
 	do 2000, i = 1, nohrs
 	c
@@ -56,11 +56,22 @@ Nonetheless, please follow the Table of Contents (TOC) to access it as a library
 
 ### `cuastr.f`
 #### Usage
+
 #### Main Structure
+Comprises three subroutines:
+1. `date`
+* Refer to [time structure in cupid](https://soils.wisc.edu/facstaff/wayne/cupid/timsum.html)
+* Maximum time step `mh=98` (roughly 15 mins)
+    - This statement determines the maximum number of time steps in a day and is presently set to 98, so that the maximum number of time steps per day is 96
+2. `declin`
+Calculate decline of sun in rad and equal of time in fractions of hours.
+3. `zenith`
+
 #### Other subroutine `CALL` function
 
 ### `cubdrtm.f`
 #### Usage
+
 #### Main Structure
 #### Other subroutine `CALL` function
 
