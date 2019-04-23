@@ -92,6 +92,7 @@ Comprises three subroutines:
 ! sunazm is solar azimuth
 ```
 * Refer to [Solar Azimuth `azm`](https://en.wikipedia.org/wiki/Solar_azimuth_angle)
+
 ![Solar azimuth](https://www.pveducation.org/sites/default/files/PVCDROM/Properties-of-Sunlight/Images/AZIMUTH.gif)
 #### Other subroutine `CALL` function
 `CALL = NULL`
