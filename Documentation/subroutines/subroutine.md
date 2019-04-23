@@ -68,7 +68,7 @@ Comprises three subroutines:
 * Maximum time step `mh=98` (roughly 15 mins)
 * *This statement determines the maximum number of time steps in a day and is presently set to 98, so that the maximum number of time steps per day is 96*
 2. `declin`
-*Calculate decline of sun in rad and equal of time in fractions of hours.
+* Calculate decline of sun in rad and equal of time in fractions of hours.
 * Refer to [Position of the Sun](https://en.wikipedia.org/wiki/Position_of_the_Sun)
 * Refer to [Declination](https://en.wikipedia.org/wiki/Declination)
 3. `zenith`
