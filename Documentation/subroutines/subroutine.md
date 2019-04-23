@@ -113,7 +113,15 @@ Comprises three subroutines:
 
 ### `cuet.f`
 #### Usage
+* Calculate evapotranspiration in CUPID
+* Use Penmon-Monteith model (OSM) over other TSM
+* Applied twice: to the soil and the canopy.
 #### Main Structure
+Contains 2 subroutines
+1. `penmon`
+* Output: `ihr`, `icumdy`, `etpm`
+2. `simpet`
+* Output: `ihr`,`icumdy`,`rncpyd`,`taird`,`vpaird`,`winddy`,`solard`,`etpmd`,`iday`,`tairmx`,`tairmn`
 #### Other subroutine `CALL` function
 
 ### `cuht.f`
