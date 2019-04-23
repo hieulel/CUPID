@@ -89,7 +89,7 @@ Comprises three subroutines:
     if(zenang(i).gt.crtzen)sunazm(i)=(pi-abs(sunazm(i)))*sunazm(i)
     1/abs(sunazm(i))
     sunazm(i) = sunazm(i) + pi
-c sunazm is solar azimuth
+! sunazm is solar azimuth
 ```
 * Refer to [Solar Azimuth `azm`](https://en.wikipedia.org/wiki/Solar_azimuth_angle)
 #### Other subroutine `CALL` function
