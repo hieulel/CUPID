@@ -96,7 +96,7 @@ Comprises three subroutines:
 ![Solar azimuth](https://www.pveducation.org/sites/default/files/PVCDROM/Properties-of-Sunlight/Images/AZIMUTH.gif)
 #### Other subroutine `CALL` function
 `CALL = NULL`
-
+<!--Directional thermal IR-->
 ### `cubdrtm.f`
 #### Usage
 * Directional thermal IR
@@ -105,6 +105,7 @@ Comprises three subroutines:
 * `factir` is the factor that the thermal sky flux calc'd from subr
 * `skyir` is multiplied by to get sky thermal in band of interest.
 #### Other subroutine `CALL` function
+`CALL = NULL`
 
 ### `cudpe.f`
 #### Usage
@@ -151,3 +152,27 @@ Contains 2 subroutines
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+
+### `culayr.f`
+
+### `culfbal.f`
+
+### `cunr.f`
+
+### `cuphot.f`
+
+### `cupin2.f`
+
+### `cupmod2.f`
+
+### `cuprof.f`
+
+### `curadia.f`
+
+### `curadin.f`
+
+### `curoot.f`
+
+### `cuscale.f`
+
+### `cusub.f`
