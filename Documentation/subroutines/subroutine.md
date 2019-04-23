@@ -97,13 +97,18 @@ Comprises three subroutines:
 
 ### `cubdrtm.f`
 #### Usage
-Directional thermal IR
+* Directional thermal IR
 #### Main Structure
+* Contains only one subroutine, i.e. `cbdrtm.f`
+* `factir` is the factor that the thermal sky flux calc'd from subr
+* `skyir` is multiplied by to get sky thermal in band of interest.
 #### Other subroutine `CALL` function
 
 ### `cudpe.f`
 #### Usage
+
 #### Main Structure
+
 #### Other subroutine `CALL` function
 
 ### `cuet.f`
