@@ -122,6 +122,7 @@ Contains 2 subroutines
 * Output: `ihr`, `icumdy`, `etpm`
 2. `simpet`
 * Output: `ihr`,`icumdy`,`rncpyd`,`taird`,`vpaird`,`winddy`,`solard`,`etpmd`,`iday`,`tairmx`,`tairmn`
+* Subroutine to calc daily et from simple equations.
 #### Other subroutine `CALL` function
 
 ### `cuht.f`
