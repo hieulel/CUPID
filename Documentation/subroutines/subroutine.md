@@ -57,14 +57,16 @@ Nonetheless, please follow the Table of Contents (TOC) to access it as a library
 
 ### `cuastr.f`
 #### Usage
-To calculate the calendar date, sun position and declination. This implies the radiation impacts on the leaves.
+* Dedicate for suncyle (similar code in Matlab can be found [here](http://mooring.ucsd.edu/software/matlab/doc/toolbox/geo/suncycle.html))
+* Return Sunrise, sunset, solar altitude and radiation
+* To calculate the calendar date, sun position and declination. This implies the radiation impacts on the leaves.
 #### Main Structure
 Comprises three subroutines:
 1. `date`
 * Calendar Date
 * Refer to [time structure in cupid](https://soils.wisc.edu/facstaff/wayne/cupid/timsum.html)
 * Maximum time step `mh=98` (roughly 15 mins)
-*This statement determines the maximum number of time steps in a day and is presently set to 98, so that the maximum number of time steps per day is 96*
+* *This statement determines the maximum number of time steps in a day and is presently set to 98, so that the maximum number of time steps per day is 96*
 2. `declin`
 *Calculate decline of sun in rad and equal of time in fractions of hours.
 * Refer to [Position of the Sun](https://en.wikipedia.org/wiki/Position_of_the_Sun)
@@ -72,25 +74,24 @@ Comprises three subroutines:
 3. `zenith`
 * Sun zenith and azm angl (refer to [Zenith](https://en.wikipedia.org/wiki/Zenith))
 ```fortran
-hfday=12./pi*acos(-(sinlat*sindec)/(coslat*cosdec))
-.
-.
-.
-timsun(i)=timloc(i)+eqtm+dlong
-hrang(i)=(timsun(i)-12.)*pid2/6
-.
-.
-.
-zenang(i)=acos(sinlat*sindec+coslat*cosdec*cos(hrang(i)))
-sunazm(i)=asin(cosdec*sin(hrang(i))/sin(zenang(i)))
-.
-.
-.
-crtzen=acos(sindec/sinlat)
-if(zenang(i).gt.crtzen)sunazm(i)=(pi-abs(sunazm(i)))*sunazm(i)
-1/abs(sunazm(i))
-sunazm(i) = sunazm(i) + pi
+    hfday=12./pi*acos(-(sinlat*sindec)/(coslat*cosdec))
+    .
+    .
+    timsun(i)=timloc(i)+eqtm+dlong
+    hrang(i)=(timsun(i)-12.)*pid2/6
+    .
+    .
+    zenang(i)=acos(sinlat*sindec+coslat*cosdec*cos(hrang(i)))
+    sunazm(i)=asin(cosdec*sin(hrang(i))/sin(zenang(i)))
+    .
+    .
+    crtzen=acos(sindec/sinlat)
+    if(zenang(i).gt.crtzen)sunazm(i)=(pi-abs(sunazm(i)))*sunazm(i)
+    1/abs(sunazm(i))
+    sunazm(i) = sunazm(i) + pi
+c sunazm is solar azimuth
 ```
+* Refer to [Solar Azimuth `azm`](https://en.wikipedia.org/wiki/Solar_azimuth_angle)
 #### Other subroutine `CALL` function
 `CALL = NULL`
 
