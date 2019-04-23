@@ -92,7 +92,7 @@ Comprises three subroutines:
 ! sunazm is solar azimuth
 ```
 * Refer to [Solar Azimuth `azm`](https://en.wikipedia.org/wiki/Solar_azimuth_angle)
-![Solar azimuth](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjK-7bex-XhAhVJfSsKHUrsBlEQjRx6BAgBEAQ&url=https%3A%2F%2Fslideplayer.com%2Fslide%2F2466470%2F&psig=AOvVaw2jFDPhKY5UCewaMz8ERmzG&ust=1556086316209043 "Solar azimuth")
+![Solar azimuth](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjK-7bex-XhAhVJfSsKHUrsBlEQjRx6BAgBEAQ&url=https%3A%2F%2Fslideplayer.com%2Fslide%2F2466470%2F&psig=AOvVaw2jFDPhKY5UCewaMz8ERmzG&ust=1556086316209043)
 #### Other subroutine `CALL` function
 `CALL = NULL`
 
