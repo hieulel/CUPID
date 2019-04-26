@@ -154,25 +154,61 @@ Contains 2 subroutines
 #### Other subroutine `CALL` function
 
 ### `culayr.f`
+#### Usage
+#### Main Structure
+#### Other subroutine `CALL` function
 
 ### `culfbal.f`
+#### Usage
+#### Main Structure
+#### Other subroutine `CALL` function
 
 ### `cunr.f`
+#### Usage
+#### Main Structure
+#### Other subroutine `CALL` function
 
 ### `cuphot.f`
+#### Usage
+#### Main Structure
+#### Other subroutine `CALL` function
 
 ### `cupin2.f`
+#### Usage
+#### Main Structure
+#### Other subroutine `CALL` function
 
 ### `cupmod2.f`
+#### Usage
+#### Main Structure
+#### Other subroutine `CALL` function
 
 ### `cuprof.f`
+#### Usage
+#### Main Structure
+#### Other subroutine `CALL` function
 
 ### `curadia.f`
+#### Usage
+#### Main Structure
+#### Other subroutine `CALL` function
 
 ### `curadin.f`
+#### Usage
+#### Main Structure
+#### Other subroutine `CALL` function
 
 ### `curoot.f`
+#### Usage
+#### Main Structure
+#### Other subroutine `CALL` function
 
 ### `cuscale.f`
+#### Usage
+#### Main Structure
+#### Other subroutine `CALL` function
 
 ### `cusub.f`
+#### Usage
+#### Main Structure
+#### Other subroutine `CALL` function
