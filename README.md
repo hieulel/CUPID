@@ -9,11 +9,7 @@ CUPID is a comprehensive soil-plant-atmosphere model that uses inputs of leaf ph
 The makefile consists this structure
 ![`CUPID` Makefile Structure](Documentation/images/makefile.png)
 ### Subroutine structure
-<<<<<<< HEAD
-![CUPID Subroutine Documentation](./Documentation/subroutines/subroutine.md}
-=======
-![CUPID Subroutine](Documentation/images/cupid_subprograms.png)
->>>>>>> src_document
+![CUPID Subroutine Documentation](./Documentation/subroutines/subroutine.md)
 ### Subroutine `CALL` pipeline
 ![CUPID Subroutine CALL pipeline](Documentation/images/cupid_sql.png)
 
