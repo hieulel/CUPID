@@ -9,7 +9,7 @@ In Cupid, there exists many subroutines.This is a reason why we need to care how
 Nonetheless, please follow the Table of Contents (TOC) to access it as a library.
 
 ## Table of Contents
-1. [`calcpath.f`](###`calcpath.f`)
+1. [`calcpath.f`](./Documentation/subroutines/subroutine.md#calcpathf)
 2. [`cuastr.f`](###`cuastr.f`)
 3. [`cubdrtm.f`](###`cubdrtm.f`)
 
