@@ -10,8 +10,27 @@ Nonetheless, please follow the Table of Contents (TOC) to access it as a library
 
 ## Table of Contents
 1. [`calcpath.f`](#calcpathf)
-2. [`cuastr.f`](#cuastr.f)
-3. [`cubdrtm.f`](#cubdrtm.f)
+2. [`cuastr.f`](#cuastrf)
+3. [`cubdrtm.f`](#cubdrtmf)
+4. [`cudpe.f`](#cudpef)
+5. [`cuet.f`](#cuetf)
+6. [`cuht.f`](#cuhtf)
+7. [`cuinf.f`](#cuinff)
+8. [`cuinp.f`](#cuinpf)
+9. [`cuintc.f](#cuintcf)
+10. [`culad.f`](#culadf)
+11. [`culayr.f`](#culayrf)
+12. [`culfbal.f`](#cufbalf)
+13. [`cunr.f`](#cunrf)
+14. [`cuphot.f`](#cuphotf)
+15. [`cupin2.f`](#cupin2f)
+16. [`cupmod2.f`](#cupmod2f)
+17. [`cuprof.f`](#cuproff)
+18. [`curadia.f`](#curadiaf)
+19. [`curadin.f`](#curadinf)
+20. [`curoot.f`](#curootf)
+21. [`cuscale.f`](#cuscalef)
+22. [`cusub.f`](#cusubf)
 
 ## Subfile
 <!-- For each heading, add usage, structure and subroutine called -->
