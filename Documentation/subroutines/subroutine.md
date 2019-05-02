@@ -17,7 +17,7 @@ Nonetheless, please follow the Table of Contents (TOC) to access it as a library
 6. [`cuht.f`](#cuhtf)
 7. [`cuinf.f`](#cuinff)
 8. [`cuinp.f`](#cuinpf)
-9. [`cuintc.f](#cuintcf)
+9. [`cuintc.f`](#cuintcf)
 10. [`culad.f`](#culadf)
 11. [`culayr.f`](#culayrf)
 12. [`culfbal.f`](#cufbalf)
@@ -73,6 +73,8 @@ Nonetheless, please follow the Table of Contents (TOC) to access it as a library
 	```
 #### Other subroutine `CALL` function
 `CALL = NULL`
+---------------------------------------------------------
+* * *
 
 ### `cuastr.f`
 #### Usage
