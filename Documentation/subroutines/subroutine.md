@@ -109,10 +109,13 @@ Comprises three subroutines:
 
 ### `cudpe.f`
 #### Usage
-
+To calculate the layer summaries
 #### Main Structure
-
+Include subroutine
+* `dpe`
+* `drywt`
 #### Other subroutine `CALL` function
+`CALL = NULL`
 
 ### `cuet.f`
 #### Usage
@@ -130,17 +133,37 @@ Contains 2 subroutines
 
 ### `cuht.f`
 #### Usage
+* Calculate factors to mult wind above canopy by to get wind in `windfac`
+* Compute height for any LAI given canopy height h `height`
+* Calculate leaf boundary layer resistance vs. height in canopy `rboudn`
+* Calculate height array to go from lower soil b.c to upper b.c above `hite2`
 #### Main Structure
+Include subroutines
+* `wndfac`
+* `height`
+* `rbound`
+Assume dead leaves are of size sizelef/2 - can be found in layers up to layer jdead
+* `hite2`
 #### Other subroutine `CALL` function
+`CALL = NULL`
 
 ### `cuinf.f`
 #### Usage
+Compute the soil water profile for a given timestep
 #### Main Structure
+Contain subroutines:
+* `soilw`
+* `hydro`
 #### Other subroutine `CALL` function
+`soilw` call `hydro`
 
 ### `cuinp.f`
 #### Usage
+
 #### Main Structure
+Include subroutine
+* `infix`
+* `inplnt`
 #### Other subroutine `CALL` function
 
 ### `cuintc.f`
