@@ -73,7 +73,6 @@ Nonetheless, please follow the Table of Contents (TOC) to access it as a library
 	```
 #### Other subroutine `CALL` function
 `CALL = NULL`
----------------------------------------------------------
 * * *
 
 ### `cuastr.f`
@@ -117,7 +116,8 @@ Comprises three subroutines:
 ![Solar azimuth](https://www.pveducation.org/sites/default/files/PVCDROM/Properties-of-Sunlight/Images/AZIMUTH.gif)
 #### Other subroutine `CALL` function
 `CALL = NULL`
-<!--Directional thermal IR-->
+* * *
+
 ### `cubdrtm.f`
 #### Usage
 * Directional thermal IR
@@ -127,6 +127,7 @@ Comprises three subroutines:
 * `skyir` is multiplied by to get sky thermal in band of interest.
 #### Other subroutine `CALL` function
 `CALL = NULL`
+* * *
 
 ### `cudpe.f`
 #### Usage
@@ -137,6 +138,7 @@ Include subroutine
 * `drywt`
 #### Other subroutine `CALL` function
 `CALL = NULL`
+* * *
 
 ### `cuet.f`
 #### Usage
@@ -151,6 +153,7 @@ Contains 2 subroutines
 * Output: `ihr`,`icumdy`,`rncpyd`,`taird`,`vpaird`,`winddy`,`solard`,`etpmd`,`iday`,`tairmx`,`tairmn`
 * Subroutine to calc daily et from simple equations.
 #### Other subroutine `CALL` function
+* * *
 
 ### `cuht.f`
 #### Usage
@@ -167,6 +170,7 @@ Assume dead leaves are of size sizelef/2 - can be found in layers up to layer jd
 * `hite2`
 #### Other subroutine `CALL` function
 `CALL = NULL`
+* * *
 
 ### `cuinf.f`
 #### Usage
@@ -177,6 +181,7 @@ Contain subroutines:
 * `hydro`
 #### Other subroutine `CALL` function
 `soilw` call `hydro`
+* * *
 
 ### `cuinp.f`
 #### Usage
@@ -186,73 +191,88 @@ Include subroutine
 * `infix`
 * `inplnt`
 #### Other subroutine `CALL` function
+* * *
 
 ### `cuintc.f`
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+* * *
 
 ### `culad.f`
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+* * *
 
 ### `culayr.f`
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+* * *
 
 ### `culfbal.f`
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+* * *
 
 ### `cunr.f`
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+* * *
 
 ### `cuphot.f`
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+* * *
 
 ### `cupin2.f`
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+* * *
 
 ### `cupmod2.f`
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+* * *
 
 ### `cuprof.f`
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+* * *
 
 ### `curadia.f`
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+* * *
 
 ### `curadin.f`
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+* * *
 
 ### `curoot.f`
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+* * *
 
 ### `cuscale.f`
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+* * *
 
 ### `cusub.f`
 #### Usage
 #### Main Structure
 #### Other subroutine `CALL` function
+* * *
