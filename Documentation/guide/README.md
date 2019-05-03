@@ -121,15 +121,17 @@ git add filename
 After you have put them in a "parcel", you have to commit them. These are steps to do it:
 1. GitHub Desktop
 Refer to the left hand corner
-![GitHub Desktop](./Documentation/images/commit_githubdesktop)
+![GitHub Desktop](../images/commit_githubdesktop.png)
 2. Command line
 ```git
 git commit -m "message"
 ```
 3. Editor (Visual studio code and Xcode)
 Use command `command+shift+p` (MacOs) or `ctrl+shift+p` (WindowOS) and select commit
-![GitHub Desktop](./Documentation/images/editor_commit)
+![GitHub Desktop](../images/editor_commit.png)
 4. GitHub (website)
+Just click to "Upload files" then write your commit message
+![GitHub Website](../images/website_commit.png)
 #### Push
 
 * * *
