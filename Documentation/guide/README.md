@@ -99,7 +99,16 @@ git push origin "master" #Push to master branch
 git push --force-with-lease #when there is error, just you this command
 ```
 ### The golden triangle
+For whatever method you used, there is sequence step you must follow with a golden rule when use version control.
 
+1. **When you write or adjust code, don't just commit yet, please run on your computer see if it works first**
+2. **If there exists an issue in the code or an issue was just publised**, DON'T EDIT code in `origin/master` (`master` branch). **You must use** `git branch iss##`.
+
+*This means you edit the code in different branch, and it does  not impact on the main code*
+
+More of this will be presented in the section below.
+
+3. **Use KISS (Keep it simple, stupid) approach when writing code or commit message**
 #### Add
 
 #### Commit
