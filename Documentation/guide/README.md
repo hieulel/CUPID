@@ -102,7 +102,7 @@ git push --force-with-lease #when there is error, just you this command
 For whatever method you used, there is sequence step you must follow with a golden rule when use version control.
 
 1. **When you write or adjust code, don't just commit yet, please run on your computer see if it works first**
-2. **If there exists an issue in the code or an issue was just publised**, DON'T EDIT code in `origin/master` (`master` branch). **You must use** `git branch iss##`.
+2. **If there exists an issue in the code or an issue was just publised**, DON'T EDIT code in `origin/master` (`master` branch). **You must use** `git branch issue-number`.
 
 *This means you edit the code in different branch, and it does  not impact on the main code*
 
@@ -133,7 +133,10 @@ Use command `command+shift+p` (MacOs) or `ctrl+shift+p` (WindowOS) and select co
 Just click to "Upload files" then write your commit message
 ![GitHub Website](../images/website_commit.png)
 #### Push
-
+The last stage was to push
+- Editor: Open Command Pallete and `push`
+- GitHub Desktop and Website: use feature push
+- Command line: use abovementioned [step](#how-to-start)
 * * *
 
 ## Structure of the CUPID Documentation
