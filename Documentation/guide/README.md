@@ -27,10 +27,8 @@ cd .. #go back
 ls #list the directory
 ls -li #list the information of the directory with permission control
 ```
-Visit this video for UNIX environment permission
-[Bash Permission control](https://youtu.be/oxuRxtrO2Ag?t=3400)
+Visit this [Bash Permission control video](https://youtu.be/oxuRxtrO2Ag?t=3400) for more info.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oxuRxtrO2Ag?start=3400" frameborder="0" allow="accelerometer; autoplay=0&rel=0; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #### Create `mkdir` `touch`, remove `rm` and move `mv` file or directory
 Remmember, you can use these command for **multiple file and folders**
 ```shell
