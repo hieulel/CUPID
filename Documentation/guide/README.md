@@ -1,5 +1,5 @@
 # How to start with CUPID
-Written by [Hieu Le(https://github.com/hieulel)
+Written by [Hieu Le](https://github.com/hieulel)
 
 This document is made for beginers who do not experience in:
 * UNIX environemnt
@@ -19,13 +19,19 @@ It is built-in and I installed `gfortran` on Terminal already.
 ### Only remember these:
 On your terminal (or Command Prompt, i.e. `cmd` on Window OS)
 
-#### Go to a directory `cd`
+#### Go to a directory `cd` and list `ls`
 ```shell
 cd CUPID #go to CUPID folder 
 cd CUPID/src #go to CUPID folder, then folder src
+cd .. #go back
+ls #list the directory
+ls -li #list the information of the directory with permission control
 ```
+Visit this video for UNIX environment permission
+[Bash Permission control](https://youtu.be/oxuRxtrO2Ag?t=3400)
 
-#### Create, remove and move file or directory
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oxuRxtrO2Ag?start=3400" frameborder="0" allow="accelerometer; autoplay=0&rel=0; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#### Create `mkdir` `touch`, remove `rm` and move `mv` file or directory
 Remmember, you can use these command for **multiple file and folders**
 ```shell
 mkdir foldername #create folder with name
@@ -38,7 +44,7 @@ mv filename foldername #move file to a folder, this can be apply for folder as w
 ```
 
 ## Version control, Git
-Git is 
+Git is  
 
 ### How to start?
 
