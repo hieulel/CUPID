@@ -109,10 +109,27 @@ For whatever method you used, there is sequence step you must follow with a gold
 More of this will be presented in the section below.
 
 3. **Use KISS (Keep it simple, stupid) approach when writing code or commit message**
+
 #### Add
-
+After you wrote or adjused code, you need to add the code to the "parcel". This parcel is push at the end. This step is only valid for
+- Command line 
+```git
+git add filename
+```
+- Editors (optional)
 #### Commit
-
+After you have put them in a "parcel", you have to commit them. These are steps to do it:
+1. GitHub Desktop
+Refer to the left hand corner
+![GitHub Desktop](./Documentation/images/commit_githubdesktop)
+2. Command line
+```git
+git commit -m "message"
+```
+3. Editor (Visual studio code and Xcode)
+Use command `command+shift+p` (MacOs) or `ctrl+shift+p` (WindowOS) and select commit
+![GitHub Desktop](./Documentation/images/editor_commit)
+4. GitHub (website)
 #### Push
 
 * * *
