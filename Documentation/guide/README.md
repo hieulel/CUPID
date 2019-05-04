@@ -161,8 +161,8 @@ The last stage was to push
 The structure of cupid is discussed vastly in this document. This document focus on how the code works, and provide some tips and trick for CUPID.
 
 ### Subroutine
-Please refer to [this link](../Documentation/subroutines/subroutine.md) for the subroutine structure and manual.
-### Outline code structure 
+Please refer to [this link](../subroutines/subroutine.md) for the subroutine structure and manual.
+### Outline code structure
 #### Layers
 CUPID divides its layers into four layers:
 1. Layer above the canopy (upper boundary to canopy top)
@@ -171,4 +171,6 @@ CUPID divides its layers into four layers:
 4. Layer below the soil surface (soil surface to the lower boundary).
 
 #### Time structure
+CUPID is a model that combines information about the properties of a soil-plant-atmosphere system with information about the time course of outside influences on the system to generate a prediction of the system's behaviour in time.
 
+* The **boundary conditions of the system for every time step, occupy one record of the input file**.  Examples of such data are: upper and lower boundary temperatures, incident radiation fluxes, wind speed and precipitation above the canopy.
