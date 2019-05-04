@@ -1,12 +1,30 @@
 # How to start with CUPID
 Written by [Hieu Le](https://github.com/hieulel)
 
-This document is made for beginers who do not experience in:
-* UNIX environemnt
+**Table of Contents**
+- [How to start with CUPID](#how-to-start-with-cupid)
+  - [UNIX Environment](#unix-environment)
+    - [Only remember these:](#only-remember-these)
+      - [Go to a directory `cd` and list `ls`](#go-to-a-directory-cd-and-list-ls)
+      - [Create `mkdir`, `touch`, remove `rm` and move `mv` file or directory](#create-mkdir-touch-remove-rm-and-move-mv-file-or-directory)
+  - [Version control, Git](#version-control-git)
+    - [How to start?](#how-to-start)
+    - [The golden triangle](#the-golden-triangle)
+      - [Add](#add)
+      - [Commit](#commit)
+      - [Push](#push)
+  - [Structure of the CUPID Documentation](#structure-of-the-cupid-documentation)
+    - [Subroutine](#subroutine)
+    - [Outline code structure](#outline-code-structure)
+      - [Layers](#layers)
+      - [Time structure](#time-structure)
+
+This document is made for beginners who do not experience in:
+* UNIX environment
 * Version control, Git
 * The structure of the CUPID documentation
 
-Here I show you how to initate your knowledge on UNIX environment, version control and the structure of the source code.
+Here I show you how to initiate your knowledge on UNIX environment, version control and the structure of the source code.
 
 ## UNIX Environment
 Unix environment is an operating system consisting of three important features; a kernel, the shell and a file system.
@@ -29,8 +47,8 @@ ls -li #list the information of the directory with permission control
 ```
 Visit this [Bash Permission control video](https://youtu.be/oxuRxtrO2Ag?t=3400) for more info.
 
-#### Create `mkdir` `touch`, remove `rm` and move `mv` file or directory
-Remmember, you can use these command for **multiple file and folders**
+#### Create `mkdir`, `touch`, remove `rm` and move `mv` file or directory
+Remember, you can use these command for **multiple file and folders**
 ```shell
 mkdir foldername #create folder with name
 touch filename #create file with name
@@ -42,12 +60,12 @@ mv filename foldername #move file to a folder, this can be apply for folder as w
 ```
 
 ## Version control, Git
-Git is a distributed version-control systems to tracking changes in source code during software development. It is designed for coordinating work among programmer. Its goals include speed, data integrity, and support for distribtued, non-linear workflows.
+Git is a distributed version-control systems to tracking changes in source code during software development. It is designed for coordinating work among programmer. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
 
-In respect of CUPID, code development will be divided into different sections for team members to work on. Different from a word processor document and spreadsheet, the code only makes sense and work when it is in a full package, i.e. line by line. Since members can work on the code seperately, therefore compiling error is almost expected if Git is not implemented. In this document, I will explain how it works and how you can use it effectively. 
+In respect of CUPID, code development will be divided into different sections for team members to work on. Different from a word processor document and spreadsheet, the code only makes sense and work when it is in a full package, i.e. line by line. Since members can work on the code separately, therefore compiling error is almost expected if Git is not implemented. In this document, I will explain how it works and how you can use it effectively. 
 
 ### How to start?
-From abovementioned clarification, all of the package requires for code development has been installed in your computer, including Git.
+From aforementioned clarification, all of the package requires for code development has been installed in your computer, including Git.
 
 There is several ways you can work with Git right away.
 1. **Website**
@@ -102,7 +120,7 @@ git push --force-with-lease #when there is error, just you this command
 For whatever method you used, there is sequence step you must follow with a golden rule when use version control.
 
 1. **When you write or adjust code, don't just commit yet, please run on your computer see if it works first**
-2. **If there exists an issue in the code or an issue was just publised**, DON'T EDIT code in `origin/master` (`master` branch). **You must use** `git branch issue-number`.
+2. **If there exists an issue in the code or an issue was just published**, DON'T EDIT code in `origin/master` (`master` branch). **You must use** `git branch issue-number`.
 
 *This means you edit the code in different branch, and it does  not impact on the main code*
 
@@ -111,7 +129,7 @@ More of this will be presented in the section below.
 3. **Use KISS (Keep it simple, stupid) approach when writing code or commit message**
 
 #### Add
-After you wrote or adjused code, you need to add the code to the "parcel". This parcel is push at the end. This step is only valid for
+After you wrote or adjusted code, you need to add the code to the "parcel". This parcel is push at the end. This step is only valid for
 - Command line 
 ```git
 git add filename
@@ -134,13 +152,23 @@ Just click to "Upload files" then write your commit message
 ![GitHub Website](../images/website_commit.png)
 #### Push
 The last stage was to push
-- Editor: Open Command Pallete and `push`
+- Editor: Open Command Pallet and `push`
 - GitHub Desktop and Website: use feature push
-- Command line: use abovementioned [step](#how-to-start)
+- Command line: use aforementioned [steps](#how-to-start)
 * * *
 
 ## Structure of the CUPID Documentation
+The structure of cupid is discussed vastly in this document. This document focus on how the code works, and provide some tips and trick for CUPID.
 
 ### Subroutine
+Please refer to [this link](../Documentation/subroutines/subroutine.md) for the subroutine structure and manual.
+### Outline code structure 
+#### Layers
+CUPID divides its layers into four layers:
+1. Layer above the canopy (upper boundary to canopy top)
+2. Canopy layer (canopy top to canopy bottom)
+3. Above ground layer (canopy bottom to soil surface)
+4. Layer below the soil surface (soil surface to the lower boundary).
 
-### Code structure 
+#### Time structure
+

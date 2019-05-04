@@ -1,4 +1,5 @@
 # CUPID Subroutine Structure
+Written by [Hieu Le](https://github.com/hieulel)
 
 ## Introduction
 In Cupid, there exists many subroutines.This is a reason why we need to care how our code works. As a result, I wrote this Markdown file to show the detail of each subroutine including
@@ -36,7 +37,7 @@ Nonetheless, please follow the Table of Contents (TOC) to access it as a library
 <!-- For each heading, add usage, structure and subroutine called -->
 ### `calcpath.f`
 #### Usage
-* To calculate the path length a beam of light given the slope and aspect of the ground and the angle of the sun. This returns a unitless ratio that is multiplied with the height of the canopy to give you the path length through the canopy
+* To **calculate the path length a beam of light** given the slope and aspect of the ground and the angle of the sun. This returns a unitless ratio that is multiplied with the height of the canopy to give you the path length through the canopy
 #### Main Structure
 * Input: 
 * Ouput: path length through the canopy
@@ -86,24 +87,21 @@ Comprises three subroutines:
 * Calendar Date
 * Refer to [time structure in cupid](https://soils.wisc.edu/facstaff/wayne/cupid/timsum.html)
 * Maximum time step `mh=98` (roughly 15 mins)
-* *This statement determines the maximum number of time steps in a day and is presently set to 98, so that the maximum number of time steps per day is 96*
+* *This statement determines the maximum number of time steps in a day and is presently set to 98*, so that the **maximum number of time steps per day is 96**
 2. `declin`
 * Calculate decline of sun in rad and equal of time in fractions of hours.
 * Refer to [Position of the Sun](https://en.wikipedia.org/wiki/Position_of_the_Sun)
 * Refer to [Declination](https://en.wikipedia.org/wiki/Declination)
 3. `zenith`
-* Sun zenith and azm angl (refer to [Zenith](https://en.wikipedia.org/wiki/Zenith))
+* Sun zenith and `azm angl` (refer to [Zenith](https://en.wikipedia.org/wiki/Zenith))
 ```fortran
-    hfday=12./pi*acos(-(sinlat*sindec)/(coslat*cosdec))
+    hfday=12./pi*acos(-(sinlat*sindec)/(coslat*cosdec)) !half day
     .
-    .
-    timsun(i)=timloc(i)+eqtm+dlong
+    timsun(i)=timloc(i)+eqtm+dlong !time of the sun
     hrang(i)=(timsun(i)-12.)*pid2/6
     .
-    .
     zenang(i)=acos(sinlat*sindec+coslat*cosdec*cos(hrang(i)))
-    sunazm(i)=asin(cosdec*sin(hrang(i))/sin(zenang(i)))
-    .
+    sunazm(i)=asin(cosdec*sin(hrang(i))/sin(zenang(i))) !sun azimuth
     .
     crtzen=acos(sindec/sinlat)
     if(zenang(i).gt.crtzen)sunazm(i)=(pi-abs(sunazm(i)))*sunazm(i)
@@ -166,7 +164,7 @@ Include subroutines
 * `wndfac`
 * `height`
 * `rbound`
-Assume dead leaves are of size sizelef/2 - can be found in layers up to layer jdead
+Assume dead leaves are of size `sizelef/2` - can be found in layers up to layer `jdead`
 * `hite2`
 #### Other subroutine `CALL` function
 `CALL = NULL`
