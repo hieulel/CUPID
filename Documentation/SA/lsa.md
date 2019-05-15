@@ -15,12 +15,12 @@ In order to initiate the sensitivity process, the data was needed to be analysed
 5. Convergence and validation (GSA applied)
 
 #### Data
-Please refer to [sample.c7.in](/Document/GitHub/CUPID/sample.c7.in)
+Please refer to [sample.c7.in](sample.c7.in)
 
 Firstly, the chosen key parameters in the input file are:
 1. Initial water content `(WATER)`
 2. Number of leave angle class `ITOT`
-3. Clumping factor for canopy structure `CLUMP` it is essential to convert effective Plant or Leaf Area Index into actual LAI or PAI, which has previously been shown to have a significant impact on biophysical parameter retrieval using optical remote sensing techniques in forests, woodlands, and savannah. Here, a simulation framework was applied to assess the performance of existing in-situ clumping retrieval methods in a 3D virtual forest canopy, which has a high degree of architectural realism [Journal](https://www.sciencedirect.com/science/article/pii/S0168192317302496)
+3. Clumping factor for canopy structure `CLUMP` it is essential to convert effective Plant or Leaf Area Index into actual LAI or PAI, which has previously been shown to have a significant impact on biophysical parameter retrieval using optical remote sensing techniques in forests, woodlands, and savannah. Here, a simulation framework was applied to assess the performance of existing in-situ clumping retrieval methods in a 3D virtual forest canopy, which has a high degree of architectural realism ([Journal](https://www.sciencedirect.com/science/article/pii/S0168192317302496))
 4. Row space `ROWSPACE`
 
 Output:
