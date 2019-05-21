@@ -1,0 +1,474 @@
+ invrgl,igl,ihrgl,isrcgl,isw1= 0 0 0 0
+ xx= .0 .0 .0 .0 .0 .0 .0
+ xx(6)= .0 0xx(1)  .0
+ noruns=  1
+  input file name..........sample.c7.in          
+  output file name.........sample.c7.out.org     
+  title from input file named sample.c7.in          
+file ye187011.augc4 day 222-229 1987 all data from pams (11)                    
+stn . 11 grid 4439 org lai = 1.70 here totlai =(lai + 30% lai)/ 0.65 = 3.4      
+  note ritchie maintenance coeff used in cudpe.f
+  sizelf=dmax in sub wndfac (cuht.f)
+ Setting zlsoil(nlsoil) = zsoil(ndsoil)
+  
+  
+ iday=  1
+  deltat=  .0 deltae=  .0 facte=  1.0 factv=  .7970246
+  ihr= 1
+  ihr= 2
+  ihr= 3
+  ihr= 4
+  ihr= 5
+  ihr= 6
+  ihr= 7
+  ihr= 8
+  ihr= 9
+  ihr= 10
+  ihr= 11
+  ihr= 12
+  ihr= 13
+  ihr= 14
+  ihr= 15
+  ihr= 16
+  ihr= 17
+  ihr= 18
+  ihr= 19
+  ihr= 20
+  ihr= 21
+  ihr= 22
+  ihr= 23
+  ihr= 24
+  ihr= 25
+  ihr= 26
+  ihr= 27
+  ihr= 28
+  ihr= 29
+  ihr= 30
+  ihr= 31
+  ihr= 32
+  ihr= 33
+  ihr= 34
+  ihr= 35
+  ihr= 36
+  ihr= 37
+  ihr= 38
+  ihr= 39
+  ihr= 40
+  ihr= 41
+  ihr= 42
+  ihr= 43
+  ihr= 44
+  ihr= 45
+  ihr= 46
+  ihr= 47
+  ihr= 48
+ iday   1 does not add to 24 hours. dtime is 24.50
+ iday=  2
+  ihr= 1
+  ihr= 2
+  ihr= 3
+  ihr= 4
+  ihr= 5
+  ihr= 6
+  ihr= 7
+  ihr= 8
+  ihr= 9
+  ihr= 10
+  ihr= 11
+  ihr= 12
+  ihr= 13
+  ihr= 14
+  ihr= 15
+  ihr= 16
+  ihr= 17
+  ihr= 18
+  ihr= 19
+  ihr= 20
+  ihr= 21
+  ihr= 22
+  ihr= 23
+  ihr= 24
+  ihr= 25
+  ihr= 26
+  ihr= 27
+  ihr= 28
+  ihr= 29
+  ihr= 30
+  ihr= 31
+  ihr= 32
+  ihr= 33
+  ihr= 34
+  ihr= 35
+  ihr= 36
+  ihr= 37
+  ihr= 38
+  ihr= 39
+  ihr= 40
+  ihr= 41
+  ihr= 42
+  ihr= 43
+  ihr= 44
+  ihr= 45
+  ihr= 46
+  ihr= 47
+  ihr= 48
+ iday=  3
+  ihr= 1
+  ihr= 2
+  ihr= 3
+  ihr= 4
+  ihr= 5
+  ihr= 6
+  ihr= 7
+  ihr= 8
+  ihr= 9
+  ihr= 10
+  ihr= 11
+  ihr= 12
+  ihr= 13
+  ihr= 14
+  iday=   3 canopy imbalance is  -90.87 hour  14
+
+  ihr= 15
+  iday=   3 canopy imbalance is  -98.51 hour  15
+
+  ihr= 16
+  iday=   3 canopy imbalance is  -20.68 hour  16
+
+  ihr= 17
+  iday=   3 canopy imbalance is  -16.40 hour  17
+
+  ihr= 18
+  ihr= 19
+  ihr= 20
+  ihr= 21
+  ihr= 22
+  ihr= 23
+  ihr= 24
+  ihr= 25
+  ihr= 26
+  ihr= 27
+  ihr= 28
+  ihr= 29
+  ihr= 30
+ mean abs tleaf-tair=   .050 ihr= 30 noiter= 50
+ mean abs tleaf-tair=   .051 ihr= 30 noiter= 50
+  ihr= 31
+ mean abs tleaf-tair=   .065 ihr= 31 noiter= 50
+  ihr= 32
+  ihr= 33
+  ihr= 34
+  ihr= 35
+  ihr= 36
+  ihr= 37
+  ihr= 38
+  iday=   3 canopy imbalance is -200.44 hour  38
+
+  ihr= 39
+ Ponded   1.456 mm water this timestep.
+ Ponded   1.450 mm water this timestep.
+ Ponded   1.448 mm water this timestep.
+ Ponded   1.446 mm water this timestep.
+ Ponded   1.445 mm water this timestep.
+ Ponded   1.444 mm water this timestep.
+ Ponded   1.440 mm water this timestep.
+ Ponded   1.439 mm water this timestep.
+ Ponded   1.438 mm water this timestep.
+ Ponded   1.438 mm water this timestep.
+ Ponded   1.437 mm water this timestep.
+ Ponded   1.437 mm water this timestep.
+ Ponded   1.437 mm water this timestep.
+  iday=   3 canopy imbalance is -225.89 hour  39
+
+  ihr= 40
+ Ponded   6.456 mm water this timestep.
+ Ponded   6.457 mm water this timestep.
+ Ponded   6.456 mm water this timestep.
+ Ponded   6.455 mm water this timestep.
+ Ponded   6.455 mm water this timestep.
+ Ponded   6.454 mm water this timestep.
+ Ponded   6.453 mm water this timestep.
+  iday=   3 canopy imbalance is -245.45 hour  40
+
+  ihr= 41
+  iday=   3 canopy imbalance is  -46.81 hour  41
+
+  ihr= 42
+  iday=   3 canopy imbalance is  -42.48 hour  42
+
+  ihr= 43
+  iday=   3 canopy imbalance is  -36.14 hour  43
+
+  ihr= 44
+  iday=   3 canopy imbalance is  -25.64 hour  44
+
+  ihr= 45
+  iday=   3 canopy imbalance is  -29.82 hour  45
+
+  ihr= 46
+  iday=   3 canopy imbalance is  -16.91 hour  46
+
+  ihr= 47
+  ihr= 48
+ iday=  4
+ WIND SET TO 0.2 for IHR=  5
+ WIND SET TO 0.2 for IHR=  13
+  ihr= 1
+  ihr= 2
+  ihr= 3
+  ihr= 4
+  ihr= 5
+  ihr= 6
+  ihr= 7
+  ihr= 8
+  ihr= 9
+  ihr= 10
+  ihr= 11
+  ihr= 12
+  ihr= 13
+  ihr= 14
+  ihr= 15
+  ihr= 16
+  ihr= 17
+  ihr= 18
+  ihr= 19
+  ihr= 20
+  ihr= 21
+  ihr= 22
+  ihr= 23
+  ihr= 24
+  ihr= 25
+  ihr= 26
+  ihr= 27
+ mean abs tleaf-tair=   .114 ihr= 27 noiter= 50
+ mean abs tleaf-tair=   .114 ihr= 27 noiter= 50
+ mean abs tleaf-tair=   .114 ihr= 27 noiter= 50
+ mean abs tleaf-tair=   .114 ihr= 27 noiter= 50
+ mean abs tleaf-tair=   .114 ihr= 27 noiter= 50
+ mean abs tleaf-tair=   .113 ihr= 27 noiter= 50
+ mean abs tleaf-tair=   .114 ihr= 27 noiter= 50
+ mean abs tleaf-tair=   .113 ihr= 27 noiter= 50
+ mean abs tleaf-tair=   .114 ihr= 27 noiter= 50
+  ihr= 28
+  ihr= 29
+ mean abs tleaf-tair=   .092 ihr= 29 noiter= 50
+  ihr= 30
+  ihr= 31
+  ihr= 32
+  iday=   4 canopy imbalance is  -17.40 hour  32
+
+  ihr= 33
+  ihr= 34
+  ihr= 35
+  ihr= 36
+  ihr= 37
+  ihr= 38
+  ihr= 39
+  ihr= 40
+  ihr= 41
+  ihr= 42
+  ihr= 43
+  ihr= 44
+  ihr= 45
+  ihr= 46
+  ihr= 47
+  ihr= 48
+ iday=  5
+  ihr= 1
+  ihr= 2
+  ihr= 3
+  ihr= 4
+  ihr= 5
+  ihr= 6
+  ihr= 7
+  ihr= 8
+  ihr= 9
+  ihr= 10
+  ihr= 11
+  ihr= 12
+  ihr= 13
+  ihr= 14
+  ihr= 15
+  ihr= 16
+  ihr= 17
+  ihr= 18
+  ihr= 19
+  ihr= 20
+  ihr= 21
+  ihr= 22
+  ihr= 23
+  ihr= 24
+  ihr= 25
+  ihr= 26
+  ihr= 27
+  ihr= 28
+  ihr= 29
+  ihr= 30
+  ihr= 31
+  ihr= 32
+  ihr= 33
+  ihr= 34
+  ihr= 35
+  ihr= 36
+  ihr= 37
+  ihr= 38
+  ihr= 39
+  ihr= 40
+  ihr= 41
+  ihr= 42
+  ihr= 43
+  ihr= 44
+  ihr= 45
+  ihr= 46
+  ihr= 47
+  ihr= 48
+ iday=  6
+  ihr= 1
+  ihr= 2
+  ihr= 3
+  ihr= 4
+  ihr= 5
+  ihr= 6
+  ihr= 7
+  ihr= 8
+  ihr= 9
+  ihr= 10
+  ihr= 11
+  ihr= 12
+  ihr= 13
+  ihr= 14
+  ihr= 15
+  ihr= 16
+  ihr= 17
+  ihr= 18
+  ihr= 19
+  ihr= 20
+  ihr= 21
+  ihr= 22
+  ihr= 23
+  ihr= 24
+  ihr= 25
+  ihr= 26
+  ihr= 27
+  ihr= 28
+  ihr= 29
+  ihr= 30
+  ihr= 31
+  ihr= 32
+  ihr= 33
+  ihr= 34
+  ihr= 35
+  ihr= 36
+  ihr= 37
+  ihr= 38
+  ihr= 39
+  ihr= 40
+  ihr= 41
+  ihr= 42
+  ihr= 43
+  ihr= 44
+  ihr= 45
+  ihr= 46
+  ihr= 47
+  ihr= 48
+ iday=  7
+  ihr= 1
+  ihr= 2
+  ihr= 3
+  ihr= 4
+  ihr= 5
+  ihr= 6
+  ihr= 7
+  ihr= 8
+  ihr= 9
+  ihr= 10
+  ihr= 11
+  ihr= 12
+  ihr= 13
+  ihr= 14
+  ihr= 15
+  ihr= 16
+  ihr= 17
+  ihr= 18
+  ihr= 19
+  ihr= 20
+  ihr= 21
+  ihr= 22
+  ihr= 23
+  ihr= 24
+  ihr= 25
+  ihr= 26
+  ihr= 27
+  ihr= 28
+  ihr= 29
+  ihr= 30
+  ihr= 31
+  ihr= 32
+  ihr= 33
+  ihr= 34
+  ihr= 35
+  ihr= 36
+  ihr= 37
+  ihr= 38
+  ihr= 39
+  ihr= 40
+  ihr= 41
+  ihr= 42
+  ihr= 43
+  ihr= 44
+  ihr= 45
+  ihr= 46
+  ihr= 47
+  ihr= 48
+ iday=  8
+  ihr= 1
+  ihr= 2
+  ihr= 3
+  ihr= 4
+  ihr= 5
+  ihr= 6
+  ihr= 7
+  ihr= 8
+  ihr= 9
+  ihr= 10
+  ihr= 11
+  ihr= 12
+  ihr= 13
+  ihr= 14
+  ihr= 15
+  ihr= 16
+  ihr= 17
+  ihr= 18
+  ihr= 19
+  ihr= 20
+  ihr= 21
+  ihr= 22
+  ihr= 23
+  ihr= 24
+  ihr= 25
+  ihr= 26
+  ihr= 27
+  ihr= 28
+  ihr= 29
+  ihr= 30
+  ihr= 31
+  ihr= 32
+  ihr= 33
+  ihr= 34
+  ihr= 35
+  ihr= 36
+  ihr= 37
+  ihr= 38
+  ihr= 39
+  ihr= 40
+  ihr= 41
+  ihr= 42
+  ihr= 43
+  ihr= 44
+  ihr= 45
+  ihr= 46
+  ihr= 47
+  ihr= 48
+ hsoil,hcpy,ecpy=
+     -60.07    -44.38     45.67
+ tcpyir(4,1)= 20.32634
