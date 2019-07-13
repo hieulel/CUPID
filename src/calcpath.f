@@ -72,15 +72,15 @@ c
 	    if (zenang(i) .lt. pid2*.998) then
 c
 		if (sunazm(i).eq.0.0) then
-		    write(*,*)'sunazm of i = ',i,' equals 0.0'
+		    ! write(*,*)'sunazm of i = ',i,' equals 0.0'
 		    write(*,*) 'zenang of i = ',zenang(i)
 		    stop
 		endif
 c
       	        path(i)= cos(zenang(i))*cos(slope)+sin(zenang(i))
      &				*sin(slope)*cos(aspect-sunazm(i))
-  		if(path(i).eq.0.)path(i)=1.0e-11
-		path(i)=1./path(i)
+		  if(path(i).eq.0.)path(i)=1.0e-11
+		  path(i)=1./path(i)
  		if (path(i).le.0.0.or.path(i).gt.1.0e10) then
 c		if (path(i).le.0.0) then
 		    path(i)=-1.0
