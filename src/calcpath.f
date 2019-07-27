@@ -12,6 +12,7 @@ c	| the canopy.
 c
 c	| changed to use Shinsuke's equations 94/2/10
 c   First test for Git - Hieu
+
 c
 	subroutine calcpath(nohrs,slope,aspect,path)
 c
