@@ -3100,6 +3100,8 @@ c
 c     debug trace
 c     at 800
 c     trace on
+      write(*,*) "I AM HERE", pbfile,pbcnt,pbfrst
+c
       end
 
 c
