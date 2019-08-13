@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1565583560787.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2060735677",
+    "id" : "F6CAF6CD",
+    "lastKnownWriteTime" : 1565583358,
+    "last_content_update" : 1565583358,
+    "path" : "~/GitHub/CUPID/cupid.R/src/test.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "28,38",
+        "scrollLine" : "14"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
