@@ -1,8 +1,8 @@
 # Generic form
-g = function(l, r, ...) UseMethod('%=%')
+'%=%' = function(l, r, ...) UseMethod('%=%')
 
 # Binary Operator
-g.lbunch = function(l, r, ...) {
+'%=%.lbunch' = function(l, r, ...) {
   Envir = as.environment(-1)
   
   if (length(r) > length(l))

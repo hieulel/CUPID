@@ -69,7 +69,9 @@ c	  write (*,*) "declin subroutine called - cuastr.f"
 c************************zenith*****************************************
       parameter(mh=98)
       dimension hrang(mh)
-     &,timsun(mh),sunazm(mh)
+c     | Add intent in 13/08/2019 to connect with python
+	  dimension sunazm(mh)
+	  dimension timsun(mh)
       common/astron/eqtm,decl,sindec,cosdec,decmax,sinlat,coslat,
      1tanlat,dlong
       common /rad3/radtop(3,mh),fbeam1(3,mh),coszen(mh),zenang(mh),hfday
@@ -80,7 +82,6 @@ c   -hfday to 1200 + hfday. all other hours will have zenang=pi/2.
   5   format(1x,i3,1x,f7.4)
       pid2=3.1415926537/2.
       pi=3.1415926537
-c      write (*,*) "zenith subroutine called - cuastr.f"
       hfday=12./pi*acos(-(sinlat*sindec)/(coslat*cosdec))
       do10i=1,nohrs
       if(timloc(i))10,10,100
