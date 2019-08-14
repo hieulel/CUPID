@@ -54,7 +54,7 @@ stn . 11 grid 4439 org lai = 1.70 here totlai =(lai + 30% lai)/ 0.65 = 3.4
 0.5  0.2 0.15      (FRSTEM FRWTMX PINTMX)                                       
 2                                                                               
 222 2.6 0.65 0.59 2.4 0.15 0.55 24.7 .21  (LDAYIN,XTLAI,frlive,XHT,XAROT,XZLDH,XZMDH,       
-229 2.6 0.65 0.59 2.4 0.15 0.55 24.7 .21  TSOLBC,WSOLBC)                             
+229 2.6 0.65 0.59 2.4 0.15 0.55 24.7 .21  (TSOLBC,WSOLBC)                             
 .303 .303 .303 .303 .227 .225 .224 .222 .218 .214 .214 .214 .21 .21 .21 .21 .21 .21 .21 .21 .21       (WATER)
   8  1.0  1.0      (NODAYS  RATIO-DAY   RATIO-NITE)                             
 1987	222	0.25	1.9	-1	2.25	-1	-1	-1	19.5	17.6	0	0	10-Aug-87	11
