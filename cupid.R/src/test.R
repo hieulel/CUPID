@@ -26,8 +26,52 @@ names(cupid.input) <- c('year','doy','local',
                         'precip',
                         'precip.type','day','idxx')
 
+<<<<<<< Updated upstream
 system(shQuote("/home/hieu/Documents/2019.gfortran/CUPID/src/cupid7.exe",
                type = c('sh')))
+=======
+# Get a first look for the input (meterological data)
+op = par(mfrow=c(2,2))
+
+plot(cupid.input.weather$windspeed,type = 'l', main = 'Wind Speed',
+     ylab = 'Wind Speed', col = 'blue')
+plot(cupid.input.weather$rad.flux,type = 'l', main = 'Total Radiation Flux',
+     ylab = 'Total Radiation Flux', col = 'blue')
+plot(cupid.input.weather$air.temp, type = 'l', main = 'Air temperature',
+     ylab = 'Air temperature', col = 'blue')
+plot(cupid.input.weather$air.water.vapor, type ='l', main = 'Air water vapor pressure',
+     ylab = 'Air water vapor pressure', col = 'blue')
+
+par(op)
+
+# Finish initialisation
+# -----------------------
+
+# SENSTIVITY ANALYSIS (deterministic)
+
+
+
+
+# ------------------------
+# PROGRAM EXECUTION
+# Start running
+
+# Makefile for the code to generate the executable file
+# system(shQuote("make",
+#                type = c('sh')
+#               )
+#       )
+# # system(shQuote("cup2rdb cupfile.rd sample.c7.out.org | grep -v N > cupout2.strip.txt",
+# #                type = c('sh')
+# #               )
+# #       )
+# 
+# # Run cupid
+# system(shQuote("/Users/thanhle/Documents/GitHub/CUPID/cupid7",
+#                type = c('sh')
+#                )
+#        )
+>>>>>>> Stashed changes
 
 # ---------------------------------------------
 
