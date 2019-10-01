@@ -18,6 +18,7 @@ Written by [Hieu Le](https://github.com/hieulel)
     - [Outline code structure](#outline-code-structure)
       - [Layers](#layers)
       - [Time structure](#time-structure)
+      - [Algorithm](#algorithm)
 
 This document is made for beginners who do not experience in:
 * UNIX environment
@@ -146,10 +147,10 @@ git commit -m "message"
 ```
 3. Editor (Visual studio code and Xcode)
 Use command `command+shift+p` (MacOs) or `ctrl+shift+p` (WindowOS) and select commit
-![GitHub Desktop](../images/editor_commit.png)
-4. GitHub (website)
+![GitHub Desktop](Documentation/images/editor_commit.png)
+1. GitHub (website)
 Just click to "Upload files" then write your commit message
-![GitHub Website](../images/website_commit.png)
+![GitHub Website](Documentation/images/website_commit.png)
 #### Push
 The last stage was to push
 - Editor: Open Command Pallet and `push`
@@ -161,7 +162,9 @@ The last stage was to push
 The structure of cupid is discussed vastly in this document. This document focus on how the code works, and provide some tips and trick for CUPID.
 
 ### Subroutine
-Please refer to [this link](../subroutines/subroutine.md) for the subroutine structure and manual.
+Please refer to [this link](Documentation/subroutines/subroutine.md) for the subroutine structure and manual.
+
+The full structure of these subroutine can be refer to this [link](Documentation/images/cupid_sql.png)
 ### Outline code structure
 #### Layers
 CUPID divides its layers into four layers:
@@ -171,6 +174,13 @@ CUPID divides its layers into four layers:
 4. Layer below the soil surface (soil surface to the lower boundary).
 
 #### Time structure
-CUPID is a model that combines information about the properties of a soil-plant-atmosphere system with information about the time course of outside influences on the system to generate a prediction of the system's behaviour in time.
+CUPID is a model that combines information about the properties of a soil-plant-atmosphere system with information about the time course of outside influences on the system to generate a prediction of the system's behaviour in time. 
 
-* The **boundary conditions of the system for every time step, occupy one record of the input file**.  Examples of such data are: upper and lower boundary temperatures, incident radiation fluxes, wind speed and precipitation above the canopy.
+**In our project, 48 hour period was used**
+
+#### Algorithm
+The algorithm can be traced back to this [link](https://soils.wisc.edu/facstaff/wayne/cupid/code.html).
+
+Illustratively, it can be seen by this picture
+![Cupid loop](Documentation/images/cupid_loop.png)
+
