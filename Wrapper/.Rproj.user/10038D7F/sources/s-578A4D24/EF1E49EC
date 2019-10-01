@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1569460059925.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "EF1E49EC",
+    "lastKnownWriteTime" : 1569501875,
+    "last_content_update" : 1569896308189,
+    "path" : "G:/My Drive/research_F19W30/Result Plot/Graphing/Graphing/plot.R",
+    "project_path" : "plot.R",
+    "properties" : {
+        "cursorPosition" : "66,49",
+        "scrollLine" : "36",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1569470814385.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3CC07845",
+    "lastKnownWriteTime" : 7598261317198815854,
+    "last_content_update" : 1569470814385,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "E0692ED1",
+        "caption" : "irri",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=irri&cache_key=E0692ED1",
+        "displayedObservations" : 96,
+        "environment" : "",
+        "expression" : "irri",
+        "object" : "irri",
+        "preview" : 0,
+        "totalObservations" : 96,
+        "variables" : 5
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

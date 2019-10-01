@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1569478977289.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "8F858AFA",
+    "lastKnownWriteTime" : 2481042943426913650,
+    "last_content_update" : 1569478977289,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "1C7B893D",
+        "caption" : "eff.coo",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=eff.coo&cache_key=1C7B893D",
+        "displayedObservations" : 47,
+        "environment" : "",
+        "expression" : "eff.coo",
+        "object" : "eff.coo",
+        "preview" : 0,
+        "totalObservations" : 47,
+        "variables" : 2
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

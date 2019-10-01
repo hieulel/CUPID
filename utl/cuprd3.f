@@ -12,10 +12,10 @@ c    designed for cupid4 but may work on earlier versions.
       character*78 title1,title2, title3,title4
 c
 c get input file name and output file name
-      Write(6,*)' input file name'
+      Write(6,*)' Input the file name'
       read(5,30)filein
  30   format(a22)
-      write(6,*)' output file name'
+      write(6,*)' Output file name for graphics'
       read(5,30)filout
 c
       open(unit=24,file=filein,status='unknown')

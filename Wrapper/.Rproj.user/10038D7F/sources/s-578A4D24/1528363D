@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1569675621449.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1528363D",
+    "lastKnownWriteTime" : 8028074750225051768,
+    "last_content_update" : 1569675621449,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "A3E5729D",
+        "caption" : "varwind",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=varwind&cache_key=A3E5729D",
+        "displayedObservations" : 96,
+        "environment" : "",
+        "expression" : "varwind",
+        "object" : "varwind",
+        "preview" : 0,
+        "totalObservations" : 96,
+        "variables" : 11
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

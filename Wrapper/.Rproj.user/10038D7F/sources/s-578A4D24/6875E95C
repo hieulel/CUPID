@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1569481331132.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6875E95C",
+    "lastKnownWriteTime" : 2478515131583067487,
+    "last_content_update" : 1569481331132,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "A3CA8504",
+        "caption" : "sedule",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=sedule&cache_key=A3CA8504",
+        "displayedObservations" : 18,
+        "environment" : "",
+        "expression" : "sedule",
+        "object" : "sedule",
+        "preview" : 0,
+        "totalObservations" : 18,
+        "variables" : 10
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
